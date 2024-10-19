@@ -4,4 +4,4 @@ Tras esto voy a empezar a crear la máquina en vagrant
 
 Voy configurando también los archivos de configuración
 
-Voy a trabajar desde casa
+Voy a trabajar desde casa y voy a bajar el repositorio
