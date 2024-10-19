@@ -1,0 +1,5 @@
+
+zone "sistema.test" {
+	type slave;
+	masters { 192.168.57.103; };
+};

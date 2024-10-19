@@ -1,0 +1,5 @@
+
+zone "sistema.test" {
+	type master;
+	file "/var/lib/bind/dns.sistema.test";
+};
