@@ -20,3 +20,5 @@ He retocado la máquina virtual de esclavo a partir de la que teníamos creada d
 
 Añadiendo el tiempo de caché de las respuestas negativas y retocando el vagrantfile
 
+He tenido un problema con la máquina y he tenido que modificar el .vagrant
+
