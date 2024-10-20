@@ -14,5 +14,7 @@ He añadido la configuración de la zona inversa al named.conf.local
 
 He configurado el archivo dns.sistema.test y ya le asignado los dominios a sus respectivas ips, así como asignar los alias
 
+He creado el archivo rev.sistema.test que me faltaba
 
+He retocado la máquina virtual de esclavo a partir de la que teníamos creada del ejercicio en clase
 

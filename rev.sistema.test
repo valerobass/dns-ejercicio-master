@@ -1,0 +1,22 @@
+$ORIGIN  57.168.192.in-addr.arpa
+;
+$TTL	86400
+@	IN	SOA tierra.sistema.test.  root.sistema.test.(
+			      2		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			  86400 	; Negative Cache TTL
+)
+
+; Name servers
+@					IN	NS	tierra.sistema.test.
+@					IN	NS	venus.sistema.test.
+
+
+
+;   PTR records (reverse lookups)
+101     IN  mercurio.sistema.test.
+102     IN  venus.sistema.test.
+103     IN  tierra.sistema.test.
+104     IN  marte.sistema.test.
