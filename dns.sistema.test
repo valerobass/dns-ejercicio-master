@@ -5,11 +5,12 @@
 ;
 $TTL	86400
 @	IN	SOA tierra.sistema.test.  root.sistema.test.(
-			      2		; Serial
+		 2024102002 	; Serial
 			 604800		; Refresh
 			  86400		; Retry
 			2419200		; Expire
-			  86400 )	; Negative Cache TTL
+			  7200 	; Negative Cache TTL
+)
 ;
 @					IN	NS	tierra
 @					IN	NS	venus

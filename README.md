@@ -18,3 +18,5 @@ He creado el archivo rev.sistema.test que me faltaba
 
 He retocado la máquina virtual de esclavo a partir de la que teníamos creada del ejercicio en clase
 
+Añadiendo el tiempo de caché de las respuestas negativas y retocando el vagrantfile
+
