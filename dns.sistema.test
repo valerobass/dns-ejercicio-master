@@ -17,15 +17,15 @@ $ORIGIN sistema.test.
 @					IN	NS	tierra
 @					IN	NS	venus
 ; A (ip adresses)
-tierra  			IN  A   192.168.57.103
-venus				IN  A   192.168.57.102
-mercurio			IN 	A 	192.168.57.101
-marte	 			IN 	A	192.168.57.104
+tierra.sistema.test.  			IN  A   192.168.57.103
+venus.sistema.test.				IN  A   192.168.57.102
+mercurio.sistema.test.			IN 	A 	192.168.57.101
+marte.sistema.test.	 			IN 	A	192.168.57.104
 
 ; CNAME 
-ns1		    CNAME 	tierra
-ns2 	    CNAME 	venus
-mail 		CNAME	marte
+ns1.sistema.test.	    CNAME 	tierra.sistema.test.
+ns2.sistema.test.	    CNAME 	venus.sistema.test.
+mail 		            CNAME	marte.sistema.test.
 
 ;MX
 @			MX		10 marte

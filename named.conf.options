@@ -1,9 +1,10 @@
 acl localnet {
 	192.168.57.0/24;
-	127.0.0.0/8;
+	
 };
 acl "trusted"{
 	localnet;
+	127.0.0.0/8;
 };
 
 
