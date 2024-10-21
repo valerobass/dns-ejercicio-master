@@ -2,13 +2,14 @@
 # vi: set ft=ruby :
 
 Vagrant.configure("2") do |config|
-
+  config.vm.box_check_update = false
+  config.ssh.insert_key = false
 
   config.vm.box = "debian/bookworm64"
   config.vm.provision "shell", inline: <<-SHELL
       apt-get update -y
-      apt-get install -y 
-      apt-get install -y bind9utils  bin9-docs
+      apt-get upgrade -y 
+      apt-get install -y bind9 bind9utils bind9-doc
     cp -v /vagrant/named /etc/default/
     cp -v /vagrant/named.conf.options /etc/bind/
     SHELL
