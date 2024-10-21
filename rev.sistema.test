@@ -1,5 +1,7 @@
-$ORIGIN  57.168.192.in-addr.arpa
 ;
+;Reverse zone configuration for  57.168.192.in-addr.arpa
+;
+
 $TTL	86400
 $ORIGIN sistema.test.
 
