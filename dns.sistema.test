@@ -4,6 +4,8 @@
 ; Instead, copy it, edit named.conf, and use that copy.
 ;
 $TTL	86400
+$ORIGIN sistema.test.
+
 @	IN	SOA tierra.sistema.test.  root.sistema.test.(
 		 2024102002 	; Serial
 			 604800		; Refresh
@@ -14,13 +16,18 @@ $TTL	86400
 ;
 @					IN	NS	tierra
 @					IN	NS	venus
+; A (ip adresses)
 tierra  			IN  A   192.168.57.103
 venus				IN  A   192.168.57.102
 mercurio			IN 	A 	192.168.57.101
 marte	 			IN 	A	192.168.57.104
+
+; CNAME 
 ns1.sistema.test  CNAME 	tierra
 ns2.sistema.test  CNAME 	venus
 mail.sistema.test CNAME		marte
+
+;MX
 @					MX		10 marte
 
 

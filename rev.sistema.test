@@ -1,6 +1,8 @@
 $ORIGIN  57.168.192.in-addr.arpa
 ;
 $TTL	86400
+$ORIGIN sistema.test.
+
 @	IN	SOA tierra.sistema.test.  root.sistema.test.(
 		2024102002 		; Serial
 			 604800		; Refresh
